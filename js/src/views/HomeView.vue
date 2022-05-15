@@ -1,9 +1,16 @@
 <template>
   <v-row>
     <v-col>
-      <h2>Cody</h2>
-
-      <p>See README.md for project description.</p>
+    <DataTablesChallenge></DataTablesChallenge>
     </v-col>
   </v-row>
 </template>
+
+<script>
+
+import DataTablesChallenge from "@/components/DataTablesChallenge.vue";
+
+export default {
+    components: { DataTablesChallenge }
+};
+</script>
